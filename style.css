@@ -21,6 +21,7 @@
 }
 
 .nav_links a {
+  font-size: 16px;
   list-style: none;
   text-decoration: none;
   color: #333;
@@ -32,6 +33,7 @@
   height: 40px;
   background-color: #0c2db3;
   color: #fff;
+  font-weight: bold;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -307,7 +309,7 @@ footer hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 20px 50px;
+  margin: 35px 20px 50px;
   width: 105%;
 }
 .container2 .imges img {
@@ -354,14 +356,16 @@ footer hr {
 
   background-color: #96b2d930;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.186);
-  height: 200px;
+  height: auto;
   width: 95%;
+  padding: 30px 3px;
 
   border-radius: 15px;
 }
 
 .description5 div {
-  /* border-right: 1px solid rgba(0, 0, 0, 0.19); */
+  padding: 0 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.19);
 }
 
 .description5 div img {
@@ -394,7 +398,7 @@ footer hr {
   padding: 11px 20px;
   display: flex;
   gap: 10px;
-  height: 60px;
+  height: auto;
   width: 95%;
   background-color: #96b2d930;
   border-radius: 15px;
@@ -402,6 +406,7 @@ footer hr {
 }
 
 .description3 img {
-  height: 40px;
-  width: 40px;
+  margin-top: 5px;
+  height: 30px;
+  width: 30px;
 }
