@@ -410,3 +410,14 @@ footer hr {
   height: 30px;
   width: 30px;
 }
+
+.copyright-container{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.copyright2{
+  display: flex;
+  gap: 20px;
+}
